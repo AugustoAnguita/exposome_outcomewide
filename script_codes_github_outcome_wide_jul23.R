@@ -9,6 +9,9 @@
 
 rm(list=ls())
 
+# CAUTION: GFLasso must be installed from github: https://github.com/krisrs1128/gflasso
+
+# Rest of packages
 list.of.packages <- c(
   "rrpack","groupRemMap","gflasso","MBSP","RMTL","ggplot2","scales","devtools","corrplot","pheatmap","RColorBrewer","viridis","foreach","Matrix","MASS","parallel","doParallel","utils","nortest","ranger","palmerpenguins","tidyverse","kableExtra","haven","klaR","faraway","corrplot","ggcorrplot"
 )
